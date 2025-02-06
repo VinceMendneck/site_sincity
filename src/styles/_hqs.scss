@@ -1,0 +1,98 @@
+.hqs{
+    padding: 5.6vw;
+
+
+
+
+    h2{
+        text-align: center;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+
+        @media (max-width: 768px){
+            display: block;
+            margin: 0 auto;
+
+
+        }
+        .button{
+            margin-top: 24px;
+        }
+
+        &__item{
+        text-align: center;
+        padding: 60px 44px 44px;
+        max-width: 380px;
+        width: 100%;
+
+        @media((min-width: 1024px) and (max-width: 1365px)){
+            text-align: center;
+            padding: 30px 24px 24px;
+            max-width: 280px;
+            width: 80%;
+        }
+        
+        @media ((min-width: 769px) and (max-width: 1023px)){
+            text-align: center;
+            padding: 30px 24px 24px;
+            max-width: 280px;
+            width: 30%;
+            margin: 0 auto;
+
+        }
+
+        @media (max-width: 768px){
+            text-align: center;
+            padding: 30px 24px 24px;
+            max-width: 280px;
+            width: 80%;
+            margin: 0 auto;
+
+        }
+
+        &:nth-child(2){
+            background-image: url(/dist/imagens/fundo_combo_plus.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        img{
+            height: 158px;
+            @media((min-width: 1024px) and (max-width: 1365px)){
+                height: 100px;
+            }
+            @media (max-width: 768px){
+                height: 158px;
+                margin-left: -22px;
+            }
+
+            @media ((min-width: 769px) and (max-width: 1023px)){
+                height: 90px;
+                margin: 0 auto;
+    
+            }
+        }
+
+            strong{
+                display: block;
+                margin-top: 16px;
+                margin-bottom: 4px;
+            }
+        }
+
+
+    }
+
+    p{
+        text-align: center;
+
+        @media((min-width: 1024px) and (max-width: 1365px)){
+            font-size: 15px;
+        }
+    }
+}

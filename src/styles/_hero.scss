@@ -1,0 +1,181 @@
+@use 'variaveis';
+
+.hero{
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url(/dist/imagens/hero_sincity.png);
+    background-repeat: no-repeat;
+    background-size: 110% auto;
+    text-align: center;
+    background-position: right top -80px ;
+
+    @media(max-width: 768px){
+        background-image: url(/dist/imagens/hero_sincity_cel.png);
+        padding-top: calc(50vw + 25px);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        background-position: right top 5px ;
+    }
+
+    @media((min-width: 769px) and (max-width: 1023px)){
+        background-image: url(/dist/imagens/hero_tablet.png);
+        padding-top: calc(50vw + 25px);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        background-position: right top 5px ;
+    }
+
+    &__content{
+        margin-top: -80px;
+        max-width: 640px;
+        
+        @media((min-width: 1366px) and (max-width: 1774px)){
+            max-width: 420px;
+            margin-left: 1.5vw;
+        }
+
+        @media((min-width: 1024px) and (max-width: 1365px)){
+            max-width:320px;
+            margin-left: 1.5vw;
+        }
+
+        
+        @media(max-width: 1023px){
+            max-width:320px;
+            margin: 0 auto;
+            padding-top: 100px;
+        }
+
+        &__branding{
+            max-width: 320px;
+            margin: 0 auto 38px;
+
+            @media((min-width: 1366px) and (max-width: 1774px)){
+                max-width: 120px;
+                margin: 0 auto 28px;
+
+            }
+            @media((min-width: 1024px) and (max-width: 1365px)){
+                max-width: 100px;
+                margin: 0 auto 20px;
+            }
+
+            @media(max-width: 1023px){
+                max-width: 100px;
+                margin: 0 auto;
+            }
+            
+
+            img{
+                max-width: 300px;
+                @media((min-width: 1366px) and (max-width: 1774px)){
+                    max-width: 150px;
+    
+                }
+                @media((min-width: 1024px) and (max-width: 1365px)){
+                    max-width: 150px;
+                }
+
+                @media(max-width: 1023px){
+                    max-width: 180px;
+                    margin-left: -30px;
+                }
+                
+            }
+
+
+
+        }
+
+        .title--small{
+            margin-top: -50px;
+            margin-bottom: 50px;
+            font-size: 30px;
+
+            @media((min-width: 1366px) and (max-width: 1774px)){
+                margin-top: -30px;
+                margin-bottom: 20px;
+                font-size: 20px;
+
+            }
+            @media((min-width: 1024px) and (max-width: 1365px)){
+                margin-top: -20px;
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+            @media(max-width: 1023px){
+                margin-top: -20px;
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+            
+        }
+
+        p{
+            margin-bottom:100px ;
+
+
+            &:last-child{
+                margin-top: 60px;
+                @media((min-width: 1024px) and (max-width: 1365px)){
+                    margin-top: 30px;
+                }
+
+            }
+        }
+
+        
+
+        &__combos{
+            display: flex;
+            justify-content: space-between;
+
+
+            @media(max-width: 1023px){
+                display: block;
+            }
+
+            &__combo{
+                width: calc(50% - 12px);
+
+                @media((min-width: 1024px) and (max-width: 1365px)){
+                    width: 48%;
+                    margin-bottom: 24px;
+                    .button{
+                        font-size: 14px;
+                    }
+                    
+                
+
+                }
+
+                @media(max-width: 1023px){
+                    width: 100%;
+                    margin-bottom: 24px;
+                }
+
+                img{
+                    max-height: 230px;
+                    margin-bottom: -50px;
+                    margin-top: -50px;
+
+                    @media((min-width: 1024px) and (max-width: 1365px)){
+                        margin-bottom: -30px;
+                        margin-top: -30px;
+                        max-height: 100px;
+                    }
+                    @media((min-width: 1366px) and (max-width: 1774px)){
+                        max-height: 150px;
+                        margin-bottom: -30px;
+                        margin-top: -30px;
+                    }
+                    
+                }
+
+
+            }
+        }
+    }
+}
