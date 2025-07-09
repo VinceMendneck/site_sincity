@@ -10,26 +10,26 @@ Estilização moderna com fontes personalizadas (Avenir) e ícones SVG
 
 Estrutura do Projeto
 Abaixo está a estrutura de diretórios do projeto:
-├── dist/                    # Arquivos compilados para produção
-│   ├── css/                 # Arquivos CSS compilados
-│   ├── imagens/             # Imagens otimizadas (logos, thumbnails, etc.)
-│   │   ├── dispositivos/    # Imagens de dispositivos
-│   │   └── icones/          # Ícones SVG
-│   └── js/                  # Arquivos JavaScript compilados
-├── node_modules/            # Dependências do Node.js
-├── src/                     # Arquivos fonte
-│   ├── fonts/               # Fontes personalizadas (Avenir)
-│   ├── images/              # Imagens originais
-│   │   ├── dispositivos/    # Imagens de dispositivos
-│   │   └── icones/          # Ícones SVG
-│   ├── scripts/             # Arquivos JavaScript
-│   └── styles/              # Arquivos SCSS
-├── .gitignore               # Arquivos ignorados pelo Git
-├── gulpfile.js              # Configuração do Gulp
-├── index.html               # Página inicial
-├── package.json             # Configuração do Node.js
-├── package-lock.json        # Lockfile das dependências
-└── tree.txt                 # Árvore de diretórios
+├── dist/                   
+│   ├── css/                
+│   ├── imagens/             
+│   │   ├── dispositivos/    
+│   │   └── icones/          
+│   └── js/                  
+├── node_modules/            
+├── src/                   
+│   ├── fonts/              
+│   ├── images/             
+│   │   ├── dispositivos/    
+│   │   └── icones/         
+│   ├── scripts/            
+│   └── styles/             
+├── .gitignore              
+├── gulpfile.js              
+├── index.html              
+├── package.json            
+├── package-lock.json        
+└── tree.txt                 
 
 Pré-requisitos
 Para executar o projeto localmente, você precisa ter instalado:
