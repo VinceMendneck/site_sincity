@@ -1,4 +1,4 @@
-##Sin City Website
+Sin City Website
 
 Bem-vindo ao repositório do site Sin City, um projeto web que apresenta conteúdo relacionado às histórias em quadrinhos e adaptações de Sin City. Este site utiliza HTML, SCSS, JavaScript e ferramentas de automação como Gulp para criar uma experiência visualmente rica e responsiva.
 Sobre o Projeto
