@@ -28,8 +28,8 @@ Abaixo está a estrutura de diretórios do projeto:
 ├── gulpfile.js              
 ├── index.html              
 ├── package.json            
-├── package-lock.json        
-└── tree.txt                 
+└── package-lock.json        
+               
 
 Pré-requisitos
 Para executar o projeto localmente, você precisa ter instalado:
